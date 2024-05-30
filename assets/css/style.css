@@ -60,6 +60,14 @@ body, html {
     position: relative;
   }
   
+  .rental-container{
+    display: block;
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
   /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -253,12 +261,12 @@ body, html {
   }
   
   #main .social-links,
-  .container .social-links {
+  .rental-container .social-links {
     margin-top: 40px;
   }
   
   #main .social-links a,
-  .container .social-links a {
+  .rental-container .social-links a {
     font-size: 16px;
     color: #fff;
     margin: 0 3px;
@@ -274,12 +282,12 @@ body, html {
   }
   
   #main .social-links a i,
-  .container .social-links a i {
+  .rental-container .social-links a i {
     line-height: 0;
   }
   
   #main .social-links a:hover,
-  .container .social-links a:hover {
+  .rental-container .social-links a:hover {
     background: #24b7a4;
     border-color: #24b7a4;
   }
@@ -848,4 +856,7 @@ body, html {
     background: #000;
     opacity: 0.9;
     border: 1px solid #fff;
+  }
+  .card img{
+    height: 100%;
   }
