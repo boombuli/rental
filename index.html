@@ -1,21 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Boombuli Yoga - Payments</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body>
 
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ0QvEhWH0F6gcLTKJGmSjSnhp5iCdWaxEA3Hek=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
+<body class="d-flex flex-column h-100">
 
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ0QvEhWH0F6gcLTKJGmSjSnhp5iCdWaxEA3Hek=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/AcZssZ0QvEhWH0F6gcLTKJGmSjSnhp5iCdWaxEA3Hek=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
+    <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top" style="">
+        <div class="container">
+          <span href="javascript:;" class="navbar-brand pe-3 boombuli-logo">
+            <img src="assets/img/logo/boombuli_yoga_logo.png" width="47" alt="Silicon">
+            <span style="font-weight:450">BOOMBULI YOGA</span>
+          </span>
+
+          <a href="https://b579198.alteg.io/" class="btn btn-md fs-sm rounded-pill book-now-btn" target="_blank">
+            <i class="bx bx-cart fs-5 lh-1 me-1"></i>
+            Записаться
+          </a>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="d-grid gap-2">
+                
+                    <div class="alert alert-success mt-3 copy-alert" 
+                    id="copyMessage" style="display: none;">
+                        <p class="mb-0 fs-1"><i class="bi bi-check-circle"></i></p>
+                        <span id="allert-inner-text" style="font-size: 15px;">Счет скопирован!</span>
+                    </div>
+            
+
+                    <div class="icon-box">
+                        <h2 class="title">Чтобы скопировать номер счета кликните на кнопку</h2>
+                    </div>
+
+                    <h5 class="text-center mb-0">TBC - Bank</h5>
+                    <button type="button" class="btn btn-lg rounded-pill text-start boombuli-btn-labeled tbc-btn mb-3" id="tbc-btn">
+                        <span class="btn-label rounded-pill">
+                            <i class="bi bi-copy"></i>
+                        </span>
+                        <span>GE27TB7924345064400003</span>
+                    </button>
+                  
+                    <h5 class="text-center mb-0">Bank of Georgia</h5>
+                    <button type="button" class="btn btn-lg rounded-pill text-start boombuli-btn-labeled bog-btn mb-5" id="bog-btn">
+                        <span class="btn-label rounded-pill">
+                            <i class="bi bi-copy"></i>
+                        </span>
+                        <span>GE68BG0000000533443714</span>
+                    </button>
+
+                    <p class="text-center">
+                      <span>Получатель:</span>
+                      <a href="javascript:;" style="color: #9fc517;" id="boombuli-receiver">
+                        <span>"Tsypysheva Aleksandra" </span><i class="bi bi-copy"></i>
+                      </a>
+                    </p>
+
+                    <p class="text-center">
+                      <span>В комментариях напишите:</span>
+                      <a href="javascript:;" style="color: #9fc517;" id="service-fee">
+                        <span>"Service Fee" </span><i class="bi bi-copy"></i>
+                      </a>
+                    </p>
+              
+                </div>
+                
+
+                <div class="social-links text-center">
+                    <a href="https://www.instagram.com/boombuli.yoga" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/boombuliyoga/" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@boombuli.yoga" class="linkedin"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.youtube.com/channel/UC-ORqBip1JG405qZiZGpBLw" class="twitter"><i class="bi bi-youtube"></i></a>
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="mt-auto">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Boombuli Yoga</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/script.js" type="module"></script>
+
 </body>
+
 </html>
